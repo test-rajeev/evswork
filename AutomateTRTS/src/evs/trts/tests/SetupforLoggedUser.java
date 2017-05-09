@@ -30,6 +30,7 @@ public class SetupforLoggedUser {
 	Role role = PageFactory.initElements(driver, Role.class);
 	role.selectroleashiringapprover();
 	System.out.println("hiring approver role is selected");
+	System.out.println("hiring approver role is selected 2");
 	
 	try {
 		Thread.sleep(5000);
