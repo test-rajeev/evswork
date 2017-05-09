@@ -1,0 +1,10 @@
+This issue is appearing due to plugin was not added in apache-jmeter-2.13\lib\ext
+>
+>
+>
+>
+> Please add "JMeterPlugins-Extras.jar" and "JMeterPlugins-Standard.jar"  under apache-jmeter-2.13\lib\ext  folder
+>
+> In attachment you will find those jars having  names like "JMeterPlugins-Extras.changeextntojar" and "JMeterPlugins-Standard.changeextntojar"
+>
+> Please change the extn name to jar like JMeterPlugins-Extras.jar and JMeterPlugins-Standard.jar
