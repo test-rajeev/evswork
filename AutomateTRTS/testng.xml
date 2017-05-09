@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false"  verbose="2" preserve-order="true">
+  <test name="Test">
+    <classes>
+    <class name="evs.trts.tests.TestExecute">
+        <methods>
+        <exclude name="newrequestReplacementAndPreappvd"/>    
+            
+        <include name="createJobRequest"/>   
+             
+  		<exclude name="verifyJobRequest"/>
+        <exclude name="approveRequestWithHiringApprover"/>   
+             
+        <include name="approvewithFPnA"/>
+        <exclude name="assignRequestWithTAadmin"/>
+        <exclude name="updateCandidateInformation"/>
+        <exclude name="generateContractualEVSpayrollOL"/>
+        <exclude name="generateThirdPartyContractualOL"/>
+        <exclude name="generateInternsOL"/>
+        <exclude name="gnrateInternationalAnalystOL"/>
+        <exclude name="generateCampusOL"/>
+        <exclude name="generateRegularOL"/>
+        <exclude name="offerAcceptedandHRSSticket"/>        
+        <exclude name="generateInternalTransferOL"/>        
+        <exclude name="hrComplianaceJoiningAndMailsend"/>
+        <exclude name="reportCandidateJoiningReport"/>
+        
+        <exclude name="quitDriver"/>
+    	<exclude name="dataBaseSentMailVerification"/>
+    	<exclude name="declinedOfferLeter"/>
+      	</methods>      
+        </class> 
+         <!-- <class name="helper.GridExecution">
+      		  </class> -->      			  
+      	 </classes>
+  </test> <!-- Test -->
+   	<listeners>
+     	  	<listener class-name="helper.TestListener"/>
+  	</listeners>
+</suite> <!-- Suite -->

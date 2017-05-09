@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="helper.TestListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="evs.trts.tests.TestExecute">
+        <methods>
+          <include name="approvewithFPnA"/>
+          <include name="quitDriver"/>
+          <include name="startbrowser"/>
+          <include name="assignRequestWithTAadmin"/>
+          <include name="createJobRequest"/>
+        </methods>
+      </class> <!-- evs.trts.tests.TestExecute -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
